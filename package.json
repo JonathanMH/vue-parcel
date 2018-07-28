@@ -1,0 +1,22 @@
+{
+  "name": "vue-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Jonathan M. Hethey <public@jonathanmh.com>",
+  "license": "GPLv3",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "parcel-bundler": "^1.9.7",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}
